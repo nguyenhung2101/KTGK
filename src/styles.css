@@ -1,0 +1,24 @@
+body{font-family: Inter, Roboto, Arial; margin:0; background:#f7f7f7}
+.navbar{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:white;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.logo{font-weight:700}
+.nav-center a{margin:0 8px;text-decoration:none;color:#333}
+.nav-center a.active{color:#0b76ef;font-weight:600}
+.container{max-width:1100px;margin:24px auto;padding:0 16px}
+.page-header{display:flex;justify-content:space-between;align-items:center}
+.filter-area{margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,.05)}
+.thumb{width:100%;height:160px;object-fit:cover}
+.card-body{padding:12px}
+.card-body h3{margin:0 0 6px}
+.meta{font-size:12px;color:#666;margin-bottom:8px}
+.actions{display:flex;gap:8px;margin-top:12px}
+.form{max-width:800px;margin:16px auto;background:white;padding:16px;border-radius:8px}
+.form label{display:block;margin-bottom:12px}
+.form input,.form select,.form textarea{width:100%;padding:8px;margin-top:6px;border:1px solid #ddd;border-radius:6px}
+.form-actions{display:flex;gap:8px}
+.detail-thumb{width:100%;max-height:420px;object-fit:cover;border-radius:8px}
+.detail{background:white;padding:16px;border-radius:8px}
+.detail-actions{display:flex;gap:8px;margin-top:16px}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
